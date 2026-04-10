@@ -1,0 +1,243 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "2cb81813-883b-4f91-9356-cd67ed9d93c6")
+	(paper "A4")
+	(title_block
+		(title "project-top")
+		(date "2026-03-03")
+		(company "skr")
+	)
+	(lib_symbols)
+	(text "按键按下低电平"
+		(exclude_from_sim no)
+		(at 124.206 92.964 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7d4f0013-ce5b-4a3e-8a4c-718d2cd5b12e")
+	)
+	(text "拉高关机"
+		(exclude_from_sim no)
+		(at 123.952 95.758 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "84aaf885-e9e4-4ffc-8a78-ec07db11c909")
+	)
+	(wire
+		(pts
+			(xy 102.87 93.98) (xy 147.32 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36e3f257-8151-4f4f-8b13-2d723843daf2")
+	)
+	(wire
+		(pts
+			(xy 102.87 104.14) (xy 147.32 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91302d78-fc0a-484e-91b1-8fb9cfa449bd")
+	)
+	(wire
+		(pts
+			(xy 102.87 96.52) (xy 147.32 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bdf506a-66d7-4806-89fc-d4f4bc455f35")
+	)
+	(wire
+		(pts
+			(xy 102.87 101.6) (xy 147.32 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4eab1bc-7974-4363-ac48-c1d15ed025a0")
+	)
+	(sheet
+		(at 81.28 88.9)
+		(size 21.59 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "376cbfe7-f8d0-439a-bf37-3bafeae34be3")
+		(property "Sheetname" "power"
+			(at 81.28 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 81.28 114.8846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "PWR_OFF" input
+			(at 102.87 96.52 0)
+			(uuid "def7bb0d-70ce-48f7-9c66-5ab0c38d7f22")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_DM" input
+			(at 102.87 101.6 0)
+			(uuid "675642ac-cbe1-4dc0-99f6-ff6eaa1b3e8e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_DP" input
+			(at 102.87 104.14 0)
+			(uuid "35e2e26c-8adc-4eae-81f8-41ebad08c09f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PWR_KEY" input
+			(at 102.87 93.98 0)
+			(uuid "e7edefa5-1c88-4bd7-afac-7e1419437b14")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "electronic_scale"
+				(path "/2cb81813-883b-4f91-9356-cd67ed9d93c6"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 147.32 88.9)
+		(size 25.4 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8bd6cb4d-b50d-43f2-889d-02f0ee478da2")
+		(property "Sheetname" "core&adc"
+			(at 147.32 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "core-adc.kicad_sch"
+			(at 147.32 116.1546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "PB11" bidirectional
+			(at 147.32 93.98 180)
+			(uuid "1b935b78-89c0-4d05-8e92-8cfa54ec7013")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_DM" bidirectional
+			(at 147.32 101.6 180)
+			(uuid "5d4f9b73-edbc-472d-bfb1-c7fce0f5c019")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_DP" bidirectional
+			(at 147.32 104.14 180)
+			(uuid "09c63575-ab63-4f36-9481-23fb9426fec0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PB10" bidirectional
+			(at 147.32 96.52 180)
+			(uuid "b9d3ac03-a80d-4e61-96ed-6ce73289509b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "electronic_scale"
+				(path "/2cb81813-883b-4f91-9356-cd67ed9d93c6"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

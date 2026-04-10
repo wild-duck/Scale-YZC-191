@@ -1,0 +1,40 @@
+# KiCad project files to ignore
+
+# Backup and autosave files
+*.bak
+*.kicad_prl
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*.tmp
+*.tmp-bak
+
+# User-specific files
+*.kicad_prl
+fp-info-cache
+__pycache__/
+*.swp
+
+# KiCad 6+ schematic and PCB backup files
+*.bak*
+*-backups/
+
+# Cache and lock files
+*.cache
+*.lock
+
+# Simulation files
+*.raw
+*.log
+*.net
+*.cir
+
+# Gerber and fabrication outputs
+*.gbr
+*.gtl
+*.gbl
+*.gts
+*.gbs
+*.gto
+*.gbo
+*.drl
+*.zip
