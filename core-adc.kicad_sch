@@ -6716,10 +6716,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "fd8c0af7-8e91-4609-bd60-947689ed7677")
+			(uuid "fd8c0af7-8e91-4609-bd60-947689ed7678")
 		)
 		(pin "2"
-			(uuid "b122d643-ba00-401d-9fe3-d042e2e4aec5")
+			(uuid "b122d643-ba00-401d-9fe3-d042e2e4aec6")
 		)
 		(instances
 			(project ""

@@ -20,7 +20,7 @@
 		)
 		(uuid "7d4f0013-ce5b-4a3e-8a4c-718d2cd5b12e")
 	)
-	(text "拉高关机"
+	(text "拉低关机"
 		(exclude_from_sim no)
 		(at 123.952 95.758 0)
 		(effects
